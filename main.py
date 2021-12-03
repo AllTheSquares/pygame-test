@@ -19,7 +19,7 @@ bg = pygame.transform.scale(pygame.image.load('images/bg.jpg'), (600,300))
 groundHeight = 40
 ground = pygame.Rect(0, WINDOW_HEIGHT-groundHeight, WINDOW_WIDTH, groundHeight)
 
-pygame.display.set_caption('Hack Club Workshop')
+pygame.display.set_caption('Hack Club Original Workshop')
 
 SPAWNMONSTER = USEREVENT + 1
 CHECKPLAYERCOLLISION = USEREVENT + 2
